@@ -17,7 +17,7 @@ import java.math.*;
  *    Using the least squares method and the following preset dummy data
  *    airspeed,altimeter =
  *        {(110,10180),(100,10210),(120,10140),(105,10190),(115,10200)}
- *    This predictions is then encapsulated into an ARNIC 429 word format
+ *    This prediction is then encapsulated into an ARNIC 429 word format
  *    and displayed to the console.
  * ARINC 429 Word Format
  *    Each ARINC 429 word is a 32-bit sequence that contains five fields:
