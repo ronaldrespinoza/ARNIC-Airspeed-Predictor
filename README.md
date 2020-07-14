@@ -50,4 +50,4 @@
 <li>Display the prediction to the User</li>
 </ol>
 
-![example prediction](https://ronaldrespinoza.github.io/ARNIC-Airspeed-Predictor/blob/master/img/prediction.png)
+![example prediction](https://github.com/ronaldrespinoza/ARNIC-Airspeed-Predictor/blob/master/img/prediction.png)
