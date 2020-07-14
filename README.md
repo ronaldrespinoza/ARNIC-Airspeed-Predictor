@@ -30,18 +30,19 @@
 
 <ol>
 <li>Clear the byte stream of all data</li>
-<li>Generate the Airspeed Prediction</li>
+<li>Generate the Airspeed Prediction
 <ol>
-    <li>Get a count for the total steps in the summation sequence</li>
-    <li>Iterate through steps 1 and 2 for the entire dataset using tail recursion</li>
-    <li>Step 1: For each (x,y) calculate x2 and xy:</li>
-    <li>Step 2: Sum x, y, x2 and xy (gives us sumX, sumY, sumXX and sumXY):</li>
-    <li>Then once the data set has been fully processed Proceed with steps 3 and 4</li>
-    <li>Step 3: Calculate Slope m:</li>
-    <li>Step 4: Calculate Intercept b:</li>
-    <li>Then solve for the x position using x = (TEST - b) / m</li>
-    <li>Return the prediction</li>
+<li>Get a count for the total steps in the summation sequence</li>
+<li>Iterate through steps 1 and 2 for the entire dataset using tail recursion</li>
+<li>Step 1: For each (x,y) calculate x2 and xy:</li>
+<li>Step 2: Sum x, y, x2 and xy (gives us sumX, sumY, sumXX and sumXY):</li>
+<li>Then once the data set has been fully processed Proceed with steps 3 and 4</li>
+<li>Step 3: Calculate Slope m:</li>
+<li>Step 4: Calculate Intercept b:</li>
+<li>Then solve for the x position using x = (TEST - b) / m</li>
+<li>Return the prediction</li>
 </ol>
+</li>
 <li>Format the Prediction to two decimal places</li>
 <li>Convert each number in the prediction to it's BCD representation</li>
 <li>Pack an ARNIC429 object with the data</li>
