@@ -31,7 +31,7 @@ import java.math.*;
  * @serial
  * @Deprecated
  */
-public class Project4{
+public class ARNIC429airspeed{
 
     public static final int INDEX_SIZE = 5;
     public static final int FIELD_SIZE = 19;
