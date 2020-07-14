@@ -49,3 +49,5 @@
 <li>Using the object fill a binary word with the data</li>
 <li>Display the prediction to the User</li>
 </ol>
+
+![example prediction](https://ronaldrespinoza.github.io/ARNIC-Airspeed-Predictor/blob/master/img/prediction.png)
