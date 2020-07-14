@@ -1,17 +1,6 @@
 import java.math.*;
 /**
  * CS152 Project 4 -- class with 10 custom methods
- * Requirements:
- *    Input parameters:
- *        - At least one needs to be a 1d array
- *        - At least one needs to be a 2d array
- *    Control Flow
- *        - One method must have while loop
- *        - One method must have a for loop
- *        - One method must have a nested for loop for 2d array
- *        - Three methods that are called in another method and not just from main
- *        - 1 recursive method
- *        - 1 method to change elements in array
  * Purpose:
  *    This class generates an airspeed prediction for altitude at 10250.
  *    Using the least squares method and the following preset dummy data
@@ -33,7 +22,7 @@ import java.math.*;
  * 4.  https://www.baeldung.com/java-round-decimal-number
  * 5.  https://www.tutorialspoint.com/tail-recursion-in-data-structures
  * @author Ronald R Espinoza (UNMID: 101508826) CS152L Group 4
- * @version 1.0.1, 9 July 2020
+ * @version 1.0.2, 14 July 2020
  * @param String[] args
  * @return Void
  * @throws N/A
