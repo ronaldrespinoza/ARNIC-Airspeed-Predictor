@@ -45,7 +45,16 @@
 </li>
 <li>Format the Prediction to two decimal places</li>
 <li>Convert each number in the prediction to it's BCD representation</li>
-<li>Pack an ARNIC429 object with the data</li>
+<li>Pack an ARNIC429 object with the data
+<ol>
+<li>Then check to make sure there is an odd parity
+<ol>
+<li>If there was an odd parity bit then reverse the word using recurision</li>
+<li>Else interrupt the program and echo to the console that the data stream was invalid</li>
+</ol>
+</li>
+</ol>
+</li>
 <li>Using the object fill a binary word with the data</li>
 <li>Display the prediction to the User</li>
 </ol>
